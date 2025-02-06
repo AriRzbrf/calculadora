@@ -1,0 +1,45 @@
+/* Estilo css para a calcura */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(146, 6, 222);
+
+}
+
+.calculadora {
+    background-color: rgb(92, 14, 120);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(166, 74, 191) ;
+}
+#display {
+   width: 100%;
+   height: 40px;
+   margin-bottom: 10px;
+   text-align: right;
+   padding: 10px;
+   font-size: 18px;
+}
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   background-color: rgb(79, 31, 125);
+    color:rgb(204, 197, 210)
+}
+button:hover {
+    background-color: rgb(34, 20, 45);
+}
+
